@@ -1,0 +1,9 @@
+{
+  "PERSON": 100,
+  "EMAIL": 116,
+  "IP": 100,
+  "ORG": 100,
+  "URL": 100,
+  "TOTAL_TICKETS": 100,
+  "TOTAL_ENTITIES": 516
+}

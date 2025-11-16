@@ -1,0 +1,902 @@
+[
+  {
+    "ticket_id": "TCKT-001",
+    "title": "Tentativas de login anômalas",
+    "date": "2024-02-02",
+    "severity": "Medium",
+    "description": "Relato recebido de Thiago Souza (thiago.souza95@irongate.security) informando acesso suspeito a recursos da CloudLine. IP observado: 63.58.36.189. Mais detalhes em https://status.sentinelcloud.net/login.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Thiago Souza\"}, {\"type\": \"EMAIL\", \"value\": \"thiago.souza95@irongate.security\"}, {\"type\": \"IP\", \"value\": \"63.58.36.189\"}, {\"type\": \"ORG\", \"value\": \"CloudLine\"}, {\"type\": \"URL\", \"value\": \"https://status.sentinelcloud.net/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-002",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2025-03-08",
+    "severity": "Medium",
+    "description": "Detecção de beaconing periódico para https://portal.sentinel.works a partir do IP 108.57.115.151. Máquina associada a Ana Reis (ana.reis26@ciphernest.net) na IronGate.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Ana Reis\"}, {\"type\": \"EMAIL\", \"value\": \"ana.reis26@ciphernest.net\"}, {\"type\": \"IP\", \"value\": \"108.57.115.151\"}, {\"type\": \"ORG\", \"value\": \"IronGate\"}, {\"type\": \"URL\", \"value\": \"https://portal.sentinel.works\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-003",
+    "title": "Script malicioso em repositório",
+    "date": "2025-07-03",
+    "severity": "Low",
+    "description": "Incidente: vazamento de credenciais afetando funcionário Manuela Rodrigues da NimbusTech. Endereço IP associado: 25.92.217.89. Ticket criado em 2025-07-03.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Manuela Rodrigues\"}, {\"type\": \"EMAIL\", \"value\": \"manuela.rodrigues12@darknode.org\"}, {\"type\": \"IP\", \"value\": \"25.92.217.89\"}, {\"type\": \"ORG\", \"value\": \"NimbusTech\"}, {\"type\": \"URL\", \"value\": \"https://portal.edgematrix.io\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-004",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-04-13",
+    "severity": "Critical",
+    "description": "Investigação de potencial exploração zero-day: tráfego incomum do IP 12.170.59.198 tentando acesso a https://status.deepguard.ai/login. Usuário interno: Arthur Sales.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Arthur Sales\"}, {\"type\": \"EMAIL\", \"value\": \"arthur.sales25@blueshield.org\"}, {\"type\": \"IP\", \"value\": \"12.170.59.198\"}, {\"type\": \"ORG\", \"value\": \"HexaSecure\"}, {\"type\": \"URL\", \"value\": \"https://status.deepguard.ai/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-005",
+    "title": "Chaves API possivelmente comprometidas",
+    "date": "2024-09-07",
+    "severity": "Critical",
+    "description": "Detectado malware comunicando-se com C2 via 54.172.69.180. Host afetado pertence à empresa BlueShield. Ponto de contato: Arthur Ribeiro.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Arthur Ribeiro\"}, {\"type\": \"EMAIL\", \"value\": \"arthur.ribeiro48@zerotrace.dev\"}, {\"type\": \"IP\", \"value\": \"54.172.69.180\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://api.ciphernest.net/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-006",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2024-03-08",
+    "severity": "High",
+    "description": "Equipe de suporte recebeu chamado de Vinícius Coelho relatando perda de acesso após clique em link https://irongate.security/download/6. E-mail usado: vinícius.coelho42@cybercore.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Vinícius Coelho\"}, {\"type\": \"EMAIL\", \"value\": \"vinícius.coelho42@cybercore.net\"}, {\"type\": \"IP\", \"value\": \"59.211.9.207\"}, {\"type\": \"ORG\", \"value\": \"Quantum Shield\"}, {\"type\": \"URL\", \"value\": \"https://irongate.security/download/6\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-007",
+    "title": "Breach em conta de serviço",
+    "date": "2025-08-20",
+    "severity": "Medium",
+    "description": "Investigação de potencial exploração zero-day: tráfego incomum do IP 37.68.36.64 tentando acesso a https://id.sentinelcloud.net/authorize. Usuário interno: Simone Pinto.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Simone Pinto\"}, {\"type\": \"EMAIL\", \"value\": \"simone.pinto83@edgematrix.io\"}, {\"type\": \"IP\", \"value\": \"37.68.36.64\"}, {\"type\": \"ORG\", \"value\": \"CipherNest\"}, {\"type\": \"URL\", \"value\": \"https://id.sentinelcloud.net/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-008",
+    "title": "Script malicioso em repositório",
+    "date": "2025-09-02",
+    "severity": "Critical",
+    "description": "Usuário Sofia Assis reportou possível phishing. Recebeu e-mail de sofia.assis64@datasafe.co com link https://api.sentinelcloud.net/v1/auth solicitando credenciais da conta corporativa (Vertex Labs).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Sofia Assis\"}, {\"type\": \"EMAIL\", \"value\": \"sofia.assis64@datasafe.co\"}, {\"type\": \"IP\", \"value\": \"194.13.221.29\"}, {\"type\": \"ORG\", \"value\": \"Vertex Labs\"}, {\"type\": \"URL\", \"value\": \"https://api.sentinelcloud.net/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-009",
+    "title": "Token exposto em pipeline CI",
+    "date": "2024-04-24",
+    "severity": "Medium",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Adriana Castro. Repositório da NetSecure. Detalhes em https://id.vectorguard.ai/authorize.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Adriana Castro\"}, {\"type\": \"EMAIL\", \"value\": \"adriana.castro33@rapidsentinel.com\"}, {\"type\": \"IP\", \"value\": \"221.242.3.175\"}, {\"type\": \"ORG\", \"value\": \"NetSecure\"}, {\"type\": \"URL\", \"value\": \"https://id.vectorguard.ai/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-010",
+    "title": "Execução remota suspeita",
+    "date": "2025-01-17",
+    "severity": "Low",
+    "description": "Detectado malware comunicando-se com C2 via 130.234.28.223. Host afetado pertence à empresa Aegis Dynamics. Ponto de contato: Fernanda Assis.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Fernanda Assis\"}, {\"type\": \"EMAIL\", \"value\": \"fernanda.assis98@fortidata.com\"}, {\"type\": \"IP\", \"value\": \"130.234.28.223\"}, {\"type\": \"ORG\", \"value\": \"Aegis Dynamics\"}, {\"type\": \"URL\", \"value\": \"https://vertexlabs.com/support/ticket/10\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-011",
+    "title": "Tentativas de login anômalas",
+    "date": "2024-09-03",
+    "severity": "Low",
+    "description": "Atividade fora do horário: acessos de Elaine Souza (elaine.souza15@orbitaldefense.com) a https://cybercore.net/support/ticket/11 às 03:00 AM. IP de origem: 225.253.213.207.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Elaine Souza\"}, {\"type\": \"EMAIL\", \"value\": \"elaine.souza15@orbitaldefense.com\"}, {\"type\": \"IP\", \"value\": \"225.253.213.207\"}, {\"type\": \"ORG\", \"value\": \"Aegis Dynamics\"}, {\"type\": \"URL\", \"value\": \"https://cybercore.net/support/ticket/11\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-012",
+    "title": "Token exposto em pipeline CI",
+    "date": "2025-06-24",
+    "severity": "Medium",
+    "description": "Diversas falhas de autenticação seguidas por sucesso vindo do IP 33.169.122.243. Usuário alvo: Bruno Neves na CipherNest. Recurso: https://api.nimbustech.dev/v1/auth.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Bruno Neves\"}, {\"type\": \"EMAIL\", \"value\": \"bruno.neves69@alpha.solutions\"}, {\"type\": \"IP\", \"value\": \"33.169.122.243\"}, {\"type\": \"ORG\", \"value\": \"CipherNest\"}, {\"type\": \"URL\", \"value\": \"https://api.nimbustech.dev/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-013",
+    "title": "Tentativas de login anômalas",
+    "date": "2024-09-10",
+    "severity": "High",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Bianca Queiroz@TitanSec. IP de saída: 172.167.96.113. Email alternativo: bianca.queiroz71@deepguard.ai.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Bianca Queiroz\"}, {\"type\": \"EMAIL\", \"value\": \"bianca.queiroz40@secureforge.cloud\"}, {\"type\": \"IP\", \"value\": \"172.167.96.113\"}, {\"type\": \"ORG\", \"value\": \"TitanSec\"}, {\"type\": \"URL\", \"value\": \"https://audit.netsecure.io/events/13\"}, {\"type\": \"EMAIL\", \"value\": \"bianca.queiroz71@deepguard.ai\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-014",
+    "title": "Movimentação lateral suspeita",
+    "date": "2024-08-31",
+    "severity": "Critical",
+    "description": "Falhas de MFA registradas para conta de Vinícius Silva (vinícius.silva10@cybercore.net) ao acessar https://status.titansec.pro/login. Origem: 59.18.232.9.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Vinícius Silva\"}, {\"type\": \"EMAIL\", \"value\": \"vinícius.silva10@cybercore.net\"}, {\"type\": \"IP\", \"value\": \"59.18.232.9\"}, {\"type\": \"ORG\", \"value\": \"RedOak Cyber\"}, {\"type\": \"URL\", \"value\": \"https://status.titansec.pro/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-015",
+    "title": "Token exposto em pipeline CI",
+    "date": "2024-04-09",
+    "severity": "High",
+    "description": "Comunicação com domínio recém-registrado via https://cloudline.com/support/ticket/15. Máquina associada: Eduardo Amaral. IP observado: 63.201.122.207.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Eduardo Amaral\"}, {\"type\": \"EMAIL\", \"value\": \"eduardo.amaral74@cypherwave.ai\"}, {\"type\": \"IP\", \"value\": \"63.201.122.207\"}, {\"type\": \"ORG\", \"value\": \"SecureForge\"}, {\"type\": \"URL\", \"value\": \"https://cloudline.com/support/ticket/15\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-016",
+    "title": "Chaves API possivelmente comprometidas",
+    "date": "2024-07-13",
+    "severity": "Medium",
+    "description": "Download não autorizado de binário suspeito hospedado em https://shieldops.io/support/ticket/16. Requisição partiu do IP 16.104.187.87. Conta: Adriana Amaral.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Adriana Amaral\"}, {\"type\": \"EMAIL\", \"value\": \"adriana.amaral7@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"16.104.187.87\"}, {\"type\": \"ORG\", \"value\": \"CloudLine\"}, {\"type\": \"URL\", \"value\": \"https://shieldops.io/support/ticket/16\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-017",
+    "title": "Tentativa de privilege escalation no container",
+    "date": "2025-10-29",
+    "severity": "Low",
+    "description": "Download não autorizado de binário suspeito hospedado em https://status.cybercore.net/login. Requisição partiu do IP 114.207.221.220. Conta: Priscila Rocha.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Priscila Rocha\"}, {\"type\": \"EMAIL\", \"value\": \"priscila.rocha32@blueshield.org\"}, {\"type\": \"IP\", \"value\": \"114.207.221.220\"}, {\"type\": \"ORG\", \"value\": \"CipherNest\"}, {\"type\": \"URL\", \"value\": \"https://status.cybercore.net/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-018",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-01-03",
+    "severity": "Critical",
+    "description": "Investigação de potencial exploração zero-day: tráfego incomum do IP 124.55.222.103 tentando acesso a https://api.darknode.org/v1/auth. Usuário interno: Rodrigo Ribeiro.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Rodrigo Ribeiro\"}, {\"type\": \"EMAIL\", \"value\": \"rodrigo.ribeiro53@horizonsec.app\"}, {\"type\": \"IP\", \"value\": \"124.55.222.103\"}, {\"type\": \"ORG\", \"value\": \"CyberCore\"}, {\"type\": \"URL\", \"value\": \"https://api.darknode.org/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-019",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2024-02-28",
+    "severity": "Critical",
+    "description": "Alerta: Detecção de tráfego anômalo originado de 56.248.15.149 conectado ao servidor da BrightLock. Contato do responsável: Elaine Gomes, elaine.gomes25@aegisdyn.com.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Elaine Gomes\"}, {\"type\": \"EMAIL\", \"value\": \"elaine.gomes25@aegisdyn.com\"}, {\"type\": \"IP\", \"value\": \"56.248.15.149\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://portal.redoakcyber.net\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-020",
+    "title": "Elevação de privilégio suspeita",
+    "date": "2024-05-02",
+    "severity": "Low",
+    "description": "Atividade fora do horário: acessos de Jéssica Ribeiro (jéssica.ribeiro8@titansec.pro) a https://secureforge.cloud/support/ticket/20 às 03:00 AM. IP de origem: 21.218.48.18.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Jéssica Ribeiro\"}, {\"type\": \"EMAIL\", \"value\": \"jéssica.ribeiro8@titansec.pro\"}, {\"type\": \"IP\", \"value\": \"21.218.48.18\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://secureforge.cloud/support/ticket/20\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-021",
+    "title": "Movimentação lateral suspeita",
+    "date": "2025-02-09",
+    "severity": "High",
+    "description": "Relatório automático: múltiplas tentativas de login falhas no portal https://nimbustech.dev/support/ticket/21 por endereço IP 81.240.67.53. Usuário-alvo: Maurício Figueiredo (maurício.figueiredo75@brightlock.io).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Maurício Figueiredo\"}, {\"type\": \"EMAIL\", \"value\": \"maurício.figueiredo75@brightlock.io\"}, {\"type\": \"IP\", \"value\": \"81.240.67.53\"}, {\"type\": \"ORG\", \"value\": \"Quantum Shield\"}, {\"type\": \"URL\", \"value\": \"https://nimbustech.dev/support/ticket/21\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-022",
+    "title": "Breach em conta de serviço",
+    "date": "2024-03-11",
+    "severity": "High",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Larissa Silva@NimbusTech. IP de saída: 19.138.55.130. Email alternativo: larissa.silva70@quantumshield.io.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Larissa Silva\"}, {\"type\": \"EMAIL\", \"value\": \"larissa.silva59@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"19.138.55.130\"}, {\"type\": \"ORG\", \"value\": \"NimbusTech\"}, {\"type\": \"URL\", \"value\": \"https://api.zerotrace.dev/v1/auth\"}, {\"type\": \"EMAIL\", \"value\": \"larissa.silva70@quantumshield.io\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-023",
+    "title": "Execução remota suspeita",
+    "date": "2024-04-19",
+    "severity": "Medium",
+    "description": "Serviço exposto em https://id.netsecure.io/authorize apresentou tentativas de privilege escalation do IP 77.239.170.27. Operador interno: Jéssica Silva.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Jéssica Silva\"}, {\"type\": \"EMAIL\", \"value\": \"jéssica.silva86@rapidsentinel.com\"}, {\"type\": \"IP\", \"value\": \"77.239.170.27\"}, {\"type\": \"ORG\", \"value\": \"Alpha Solutions\"}, {\"type\": \"URL\", \"value\": \"https://id.netsecure.io/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-024",
+    "title": "Credenciais administrativas reutilizadas",
+    "date": "2024-02-22",
+    "severity": "Critical",
+    "description": "Usuário Diego Queiroz reportou possível phishing. Recebeu e-mail de diego.queiroz44@coresec.net com link https://audit.nimbustech.dev/events/24 solicitando credenciais da conta corporativa (HorizonSec).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Diego Queiroz\"}, {\"type\": \"EMAIL\", \"value\": \"diego.queiroz44@coresec.net\"}, {\"type\": \"IP\", \"value\": \"176.163.219.68\"}, {\"type\": \"ORG\", \"value\": \"HorizonSec\"}, {\"type\": \"URL\", \"value\": \"https://audit.nimbustech.dev/events/24\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-025",
+    "title": "Tentativas de login anômalas",
+    "date": "2024-01-10",
+    "severity": "Medium",
+    "description": "Incidente: vazamento de credenciais afetando funcionário Beatriz Silva da Sentinel Cloud. Endereço IP associado: 164.251.68.42. Ticket criado em 2024-01-10.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Beatriz Silva\"}, {\"type\": \"EMAIL\", \"value\": \"beatriz.silva43@alpha.solutions\"}, {\"type\": \"IP\", \"value\": \"164.251.68.42\"}, {\"type\": \"ORG\", \"value\": \"Sentinel Cloud\"}, {\"type\": \"URL\", \"value\": \"https://rapidsentinel.com/download/25\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-026",
+    "title": "Elevação de privilégio suspeita",
+    "date": "2024-08-03",
+    "severity": "Low",
+    "description": "Comunicação com domínio recém-registrado via https://portal.zerotrace.dev. Máquina associada: Henrique Correia. IP observado: 111.33.11.79.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Henrique Correia\"}, {\"type\": \"EMAIL\", \"value\": \"henrique.correia71@vertexlabs.com\"}, {\"type\": \"IP\", \"value\": \"111.33.11.79\"}, {\"type\": \"ORG\", \"value\": \"ZeroTrace Labs\"}, {\"type\": \"URL\", \"value\": \"https://portal.zerotrace.dev\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-027",
+    "title": "Múltiplos resets de senha",
+    "date": "2024-01-26",
+    "severity": "High",
+    "description": "Detectado malware comunicando-se com C2 via 237.239.61.222. Host afetado pertence à empresa SentinelWorks. Ponto de contato: Leandro Xavier.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Leandro Xavier\"}, {\"type\": \"EMAIL\", \"value\": \"leandro.xavier96@vertexlabs.com\"}, {\"type\": \"IP\", \"value\": \"237.239.61.222\"}, {\"type\": \"ORG\", \"value\": \"SentinelWorks\"}, {\"type\": \"URL\", \"value\": \"https://api.blueorbit.dev/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-028",
+    "title": "Anomalia em autenticação SSO",
+    "date": "2025-04-26",
+    "severity": "Critical",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Leandro Figueiredo@CloudLine. IP de saída: 69.41.202.180.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Leandro Figueiredo\"}, {\"type\": \"EMAIL\", \"value\": \"leandro.figueiredo95@trustwave.cloud\"}, {\"type\": \"IP\", \"value\": \"69.41.202.180\"}, {\"type\": \"ORG\", \"value\": \"CloudLine\"}, {\"type\": \"URL\", \"value\": \"https://novatech.io/download/28\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-029",
+    "title": "Script malicioso em repositório",
+    "date": "2025-10-18",
+    "severity": "High",
+    "description": "Criação massiva de contas vinculadas a Luana Ferreira. Conexões correlacionadas ao IP 103.85.72.222. Auditoria em https://id.zerotrace.dev/authorize.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Luana Ferreira\"}, {\"type\": \"EMAIL\", \"value\": \"luana.ferreira4@shieldops.io\"}, {\"type\": \"IP\", \"value\": \"103.85.72.222\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://id.zerotrace.dev/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-030",
+    "title": "Malware detectado em estação de trabalho",
+    "date": "2025-09-12",
+    "severity": "Critical",
+    "description": "Criação massiva de contas vinculadas a Thiago Gonçalves. Conexões correlacionadas ao IP 10.28.153.112. Auditoria em https://sso.sentinelcloud.net/signin.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Thiago Gonçalves\"}, {\"type\": \"EMAIL\", \"value\": \"thiago.gonçalves23@nimbustech.dev\"}, {\"type\": \"IP\", \"value\": \"10.28.153.112\"}, {\"type\": \"ORG\", \"value\": \"VectorGuard\"}, {\"type\": \"URL\", \"value\": \"https://sso.sentinelcloud.net/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-031",
+    "title": "Movimentação lateral suspeita",
+    "date": "2025-03-17",
+    "severity": "High",
+    "description": "Usuário Matheus Gonçalves reportou possível phishing. Recebeu e-mail de matheus.gonçalves6@sentinelcloud.net com link https://orbitaldefense.com/support/ticket/31 solicitando credenciais da conta corporativa (BrightLock).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Matheus Gonçalves\"}, {\"type\": \"EMAIL\", \"value\": \"matheus.gonçalves6@sentinelcloud.net\"}, {\"type\": \"IP\", \"value\": \"1.134.237.207\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://orbitaldefense.com/support/ticket/31\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-032",
+    "title": "Token exposto em pipeline CI",
+    "date": "2024-05-10",
+    "severity": "Critical",
+    "description": "Equipe de suporte recebeu chamado de Renata Amaral relatando perda de acesso após clique em link https://id.rapidsentinel.com/authorize. E-mail usado: renata.amaral39@titansec.pro.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Renata Amaral\"}, {\"type\": \"EMAIL\", \"value\": \"renata.amaral39@titansec.pro\"}, {\"type\": \"IP\", \"value\": \"80.171.105.84\"}, {\"type\": \"ORG\", \"value\": \"DarkNode Analytics\"}, {\"type\": \"URL\", \"value\": \"https://id.rapidsentinel.com/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-033",
+    "title": "Ataque de força bruta prolongado",
+    "date": "2025-03-16",
+    "severity": "High",
+    "description": "Atividade fora do horário: acessos de João Xavier (joão.xavier73@quantumshield.io) a https://id.coresec.net/authorize às 03:00 AM. IP de origem: 104.141.214.1.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"João Xavier\"}, {\"type\": \"EMAIL\", \"value\": \"joão.xavier73@quantumshield.io\"}, {\"type\": \"IP\", \"value\": \"104.141.214.1\"}, {\"type\": \"ORG\", \"value\": \"Aegis Dynamics\"}, {\"type\": \"URL\", \"value\": \"https://id.coresec.net/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-034",
+    "title": "Credenciais administrativas reutilizadas",
+    "date": "2025-06-11",
+    "severity": "High",
+    "description": "Comunicação com domínio recém-registrado via https://status.aegisdyn.com/login. Máquina associada: Otávio Coelho. IP observado: 122.204.231.246. Email alternativo: otávio.coelho97@trustwave.cloud.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Otávio Coelho\"}, {\"type\": \"EMAIL\", \"value\": \"otávio.coelho28@titansec.pro\"}, {\"type\": \"IP\", \"value\": \"122.204.231.246\"}, {\"type\": \"ORG\", \"value\": \"SentinelWorks\"}, {\"type\": \"URL\", \"value\": \"https://status.aegisdyn.com/login\"}, {\"type\": \"EMAIL\", \"value\": \"otávio.coelho97@trustwave.cloud\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-035",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2025-02-28",
+    "severity": "Medium",
+    "description": "Assinatura de ataque de força bruta detectada contra https://status.edgematrix.io/login. IP atacante: 7.12.63.252. Conta potencialmente visada: Talita Ferreira.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Talita Ferreira\"}, {\"type\": \"EMAIL\", \"value\": \"talita.ferreira26@vertexlabs.com\"}, {\"type\": \"IP\", \"value\": \"7.12.63.252\"}, {\"type\": \"ORG\", \"value\": \"EdgeMatrix\"}, {\"type\": \"URL\", \"value\": \"https://status.edgematrix.io/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-036",
+    "title": "Download de binário não autorizado",
+    "date": "2024-06-29",
+    "severity": "Critical",
+    "description": "Modificação suspeita em registros de auditoria acessando https://deepguard.ai/download/36. Usuário envolvido: Stella Farias (stella.farias52@trustwave.cloud). IP: 38.168.177.2. Email alternativo: stella.farias32@netsecure.io.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Stella Farias\"}, {\"type\": \"EMAIL\", \"value\": \"stella.farias52@trustwave.cloud\"}, {\"type\": \"IP\", \"value\": \"38.168.177.2\"}, {\"type\": \"ORG\", \"value\": \"CloudLine\"}, {\"type\": \"URL\", \"value\": \"https://deepguard.ai/download/36\"}, {\"type\": \"EMAIL\", \"value\": \"stella.farias32@netsecure.io\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-037",
+    "title": "Múltiplos resets de senha",
+    "date": "2025-04-01",
+    "severity": "Critical",
+    "description": "Detectado malware comunicando-se com C2 via 253.144.153.82. Host afetado pertence à empresa Sentinel Cloud. Ponto de contato: Renato Martins.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Renato Martins\"}, {\"type\": \"EMAIL\", \"value\": \"renato.martins60@brightlock.io\"}, {\"type\": \"IP\", \"value\": \"253.144.153.82\"}, {\"type\": \"ORG\", \"value\": \"Sentinel Cloud\"}, {\"type\": \"URL\", \"value\": \"https://rapidsentinel.com/download/37\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-038",
+    "title": "Falhas repetidas de MFA",
+    "date": "2024-08-28",
+    "severity": "High",
+    "description": "Falhas de MFA registradas para conta de Aline Torres (aline.torres36@brightlock.io) ao acessar https://status.aegisdyn.com/login. Origem: 125.161.62.71.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Aline Torres\"}, {\"type\": \"EMAIL\", \"value\": \"aline.torres36@brightlock.io\"}, {\"type\": \"IP\", \"value\": \"125.161.62.71\"}, {\"type\": \"ORG\", \"value\": \"Sentinel Cloud\"}, {\"type\": \"URL\", \"value\": \"https://status.aegisdyn.com/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-039",
+    "title": "Execução remota suspeita",
+    "date": "2025-02-21",
+    "severity": "Critical",
+    "description": "Detecção de beaconing periódico para https://status.blueorbit.dev/login a partir do IP 99.178.40.181. Máquina associada a Carlos Martins (carlos.martins20@deepguard.ai) na CoreSec.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Carlos Martins\"}, {\"type\": \"EMAIL\", \"value\": \"carlos.martins20@deepguard.ai\"}, {\"type\": \"IP\", \"value\": \"99.178.40.181\"}, {\"type\": \"ORG\", \"value\": \"CoreSec\"}, {\"type\": \"URL\", \"value\": \"https://status.blueorbit.dev/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-040",
+    "title": "Cluster com configuração insegura",
+    "date": "2024-12-26",
+    "severity": "Critical",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Diego Freitas. Repositório da Orbital Defense. Detalhes em https://audit.example.com/events/40.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Diego Freitas\"}, {\"type\": \"EMAIL\", \"value\": \"diego.freitas50@acme.com\"}, {\"type\": \"IP\", \"value\": \"220.226.196.148\"}, {\"type\": \"ORG\", \"value\": \"Orbital Defense\"}, {\"type\": \"URL\", \"value\": \"https://audit.example.com/events/40\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-041",
+    "title": "Acesso suspeito detectado",
+    "date": "2025-03-22",
+    "severity": "Critical",
+    "description": "Várias redefinições de senha para Maurício Macedo (maurício.macedo96@ciphernest.net) na CypherWave. Endpoint acessado: https://irongate.security/support/ticket/41. Origem de rede: 205.155.230.57.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Maurício Macedo\"}, {\"type\": \"EMAIL\", \"value\": \"maurício.macedo96@ciphernest.net\"}, {\"type\": \"IP\", \"value\": \"205.155.230.57\"}, {\"type\": \"ORG\", \"value\": \"CypherWave\"}, {\"type\": \"URL\", \"value\": \"https://irongate.security/support/ticket/41\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-042",
+    "title": "Movimentação lateral suspeita",
+    "date": "2025-08-29",
+    "severity": "Low",
+    "description": "Atividade fora do horário: acessos de Igor Amaral (igor.amaral22@edgematrix.io) a https://portal.secureforge.cloud às 03:00 AM. IP de origem: 236.33.252.160. Email alternativo: igor.amaral55@alpha.solutions.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Igor Amaral\"}, {\"type\": \"EMAIL\", \"value\": \"igor.amaral22@edgematrix.io\"}, {\"type\": \"IP\", \"value\": \"236.33.252.160\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://portal.secureforge.cloud\"}, {\"type\": \"EMAIL\", \"value\": \"igor.amaral55@alpha.solutions\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-043",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-10-11",
+    "severity": "Low",
+    "description": "Logs mostram tentativas de execução remota via https://sso.darknode.org/signin associadas ao IP 98.84.55.117. Operador reportado: Adriana Carvalho (adriana.carvalho7@nimbustech.dev).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Adriana Carvalho\"}, {\"type\": \"EMAIL\", \"value\": \"adriana.carvalho7@nimbustech.dev\"}, {\"type\": \"IP\", \"value\": \"98.84.55.117\"}, {\"type\": \"ORG\", \"value\": \"Quantum Shield\"}, {\"type\": \"URL\", \"value\": \"https://sso.darknode.org/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-044",
+    "title": "Ataque de força bruta prolongado",
+    "date": "2024-07-23",
+    "severity": "Medium",
+    "description": "Relato recebido de Joana Santos (joana.santos45@deepguard.ai) informando acesso suspeito a recursos da InfoSys. IP observado: 167.18.200.246. Mais detalhes em https://portal.trustwave.cloud.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Joana Santos\"}, {\"type\": \"EMAIL\", \"value\": \"joana.santos45@deepguard.ai\"}, {\"type\": \"IP\", \"value\": \"167.18.200.246\"}, {\"type\": \"ORG\", \"value\": \"InfoSys\"}, {\"type\": \"URL\", \"value\": \"https://portal.trustwave.cloud\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-045",
+    "title": "Malware detectado em estação de trabalho",
+    "date": "2024-06-16",
+    "severity": "Low",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Juliano Figueiredo. Repositório da ZeroTrace Labs. Detalhes em https://api.netsecure.io/v1/auth.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Juliano Figueiredo\"}, {\"type\": \"EMAIL\", \"value\": \"juliano.figueiredo15@coresec.net\"}, {\"type\": \"IP\", \"value\": \"120.180.66.197\"}, {\"type\": \"ORG\", \"value\": \"ZeroTrace Labs\"}, {\"type\": \"URL\", \"value\": \"https://api.netsecure.io/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-046",
+    "title": "Desvio de política de firewall",
+    "date": "2025-09-06",
+    "severity": "Low",
+    "description": "Incidente: vazamento de credenciais afetando funcionário Nicole Pinto da TrustWave. Endereço IP associado: 20.152.177.213. Ticket criado em 2025-09-06.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Nicole Pinto\"}, {\"type\": \"EMAIL\", \"value\": \"nicole.pinto92@shieldops.io\"}, {\"type\": \"IP\", \"value\": \"20.152.177.213\"}, {\"type\": \"ORG\", \"value\": \"TrustWave\"}, {\"type\": \"URL\", \"value\": \"https://status.quantumshield.io/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-047",
+    "title": "Credenciais administrativas reutilizadas",
+    "date": "2025-03-19",
+    "severity": "Critical",
+    "description": "Alto volume de requisições a https://audit.cloudline.com/events/47 originando do IP 130.166.88.4. Conta envolvida: Sabrina Figueiredo (sabrina.figueiredo48@blueshield.org) na SecureForge.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Sabrina Figueiredo\"}, {\"type\": \"EMAIL\", \"value\": \"sabrina.figueiredo48@blueshield.org\"}, {\"type\": \"IP\", \"value\": \"130.166.88.4\"}, {\"type\": \"ORG\", \"value\": \"SecureForge\"}, {\"type\": \"URL\", \"value\": \"https://audit.cloudline.com/events/47\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-048",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2025-03-22",
+    "severity": "High",
+    "description": "Serviço exposto em https://audit.edgematrix.io/events/48 apresentou tentativas de privilege escalation do IP 248.167.70.158. Operador interno: Yasmin Carvalho.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Yasmin Carvalho\"}, {\"type\": \"EMAIL\", \"value\": \"yasmin.carvalho94@brightlock.io\"}, {\"type\": \"IP\", \"value\": \"248.167.70.158\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://audit.edgematrix.io/events/48\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-049",
+    "title": "Incidente de exfiltração de dados",
+    "date": "2025-05-21",
+    "severity": "Critical",
+    "description": "Detecção de beaconing periódico para https://sso.acme.com/signin a partir do IP 63.193.119.146. Máquina associada a Aline Costa (aline.costa36@blackwall.security) na Orbital Defense.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Aline Costa\"}, {\"type\": \"EMAIL\", \"value\": \"aline.costa36@blackwall.security\"}, {\"type\": \"IP\", \"value\": \"63.193.119.146\"}, {\"type\": \"ORG\", \"value\": \"Orbital Defense\"}, {\"type\": \"URL\", \"value\": \"https://sso.acme.com/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-050",
+    "title": "Execução remota suspeita",
+    "date": "2025-02-20",
+    "severity": "Medium",
+    "description": "Várias redefinições de senha para Fernanda Dias (fernanda.dias36@irongate.security) na ShieldOps. Endpoint acessado: https://status.trustwave.cloud/login. Origem de rede: 143.3.133.243.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Fernanda Dias\"}, {\"type\": \"EMAIL\", \"value\": \"fernanda.dias36@irongate.security\"}, {\"type\": \"IP\", \"value\": \"143.3.133.243\"}, {\"type\": \"ORG\", \"value\": \"ShieldOps\"}, {\"type\": \"URL\", \"value\": \"https://status.trustwave.cloud/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-051",
+    "title": "Download de binário não autorizado",
+    "date": "2025-04-29",
+    "severity": "High",
+    "description": "Download não autorizado de binário suspeito hospedado em https://id.orbitaldefense.com/authorize. Requisição partiu do IP 76.57.104.178. Conta: Elaine Vieira.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Elaine Vieira\"}, {\"type\": \"EMAIL\", \"value\": \"elaine.vieira3@datasafe.co\"}, {\"type\": \"IP\", \"value\": \"76.57.104.178\"}, {\"type\": \"ORG\", \"value\": \"TrustWave\"}, {\"type\": \"URL\", \"value\": \"https://id.orbitaldefense.com/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-052",
+    "title": "Execução remota suspeita",
+    "date": "2024-05-02",
+    "severity": "Medium",
+    "description": "Serviço exposto em https://redoakcyber.net/support/ticket/52 apresentou tentativas de privilege escalation do IP 70.79.65.60. Operador interno: Lorena Teixeira. Email alternativo: lorena.teixeira95@cypherwave.ai.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Lorena Teixeira\"}, {\"type\": \"EMAIL\", \"value\": \"lorena.teixeira90@edgematrix.io\"}, {\"type\": \"IP\", \"value\": \"70.79.65.60\"}, {\"type\": \"ORG\", \"value\": \"NetSecure\"}, {\"type\": \"URL\", \"value\": \"https://redoakcyber.net/support/ticket/52\"}, {\"type\": \"EMAIL\", \"value\": \"lorena.teixeira95@cypherwave.ai\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-053",
+    "title": "Beaconing para domínio suspeito",
+    "date": "2025-01-04",
+    "severity": "Low",
+    "description": "Detectado malware comunicando-se com C2 via 153.73.252.26. Host afetado pertence à empresa ShieldOps. Ponto de contato: Priscila Amaral.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Priscila Amaral\"}, {\"type\": \"EMAIL\", \"value\": \"priscila.amaral76@brightlock.io\"}, {\"type\": \"IP\", \"value\": \"153.73.252.26\"}, {\"type\": \"ORG\", \"value\": \"ShieldOps\"}, {\"type\": \"URL\", \"value\": \"https://id.deepguard.ai/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-054",
+    "title": "Beaconing para domínio suspeito",
+    "date": "2024-01-13",
+    "severity": "Critical",
+    "description": "Atividade fora do horário: acessos de Eduardo Araújo (eduardo.araújo6@cybercore.net) a https://audit.cloudline.com/events/54 às 03:00 AM. IP de origem: 142.75.179.242.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Eduardo Araújo\"}, {\"type\": \"EMAIL\", \"value\": \"eduardo.araújo6@cybercore.net\"}, {\"type\": \"IP\", \"value\": \"142.75.179.242\"}, {\"type\": \"ORG\", \"value\": \"Alpha Solutions\"}, {\"type\": \"URL\", \"value\": \"https://audit.cloudline.com/events/54\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-055",
+    "title": "Credenciais administrativas reutilizadas",
+    "date": "2024-03-16",
+    "severity": "Low",
+    "description": "Atividade fora do horário: acessos de Manuela Carvalho (manuela.carvalho7@nimbustech.dev) a https://horizonsec.app/download/55 às 03:00 AM. IP de origem: 241.221.123.30. Email alternativo: manuela.carvalho73@quantumshield.io.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Manuela Carvalho\"}, {\"type\": \"EMAIL\", \"value\": \"manuela.carvalho7@nimbustech.dev\"}, {\"type\": \"IP\", \"value\": \"241.221.123.30\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://horizonsec.app/download/55\"}, {\"type\": \"EMAIL\", \"value\": \"manuela.carvalho73@quantumshield.io\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-056",
+    "title": "Domínio recém-registrado em comunicação",
+    "date": "2025-03-29",
+    "severity": "Critical",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Carlos Nascimento. Repositório da DeepGuard. Detalhes em https://blackwall.security/download/56.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Carlos Nascimento\"}, {\"type\": \"EMAIL\", \"value\": \"carlos.nascimento16@rapidsentinel.com\"}, {\"type\": \"IP\", \"value\": \"196.107.156.153\"}, {\"type\": \"ORG\", \"value\": \"DeepGuard\"}, {\"type\": \"URL\", \"value\": \"https://blackwall.security/download/56\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-057",
+    "title": "Incidente de exfiltração de dados",
+    "date": "2024-06-09",
+    "severity": "Low",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Camila Xavier@CoreSec. IP de saída: 243.196.54.161. Email alternativo: camila.xavier53@blackwall.security.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Camila Xavier\"}, {\"type\": \"EMAIL\", \"value\": \"camila.xavier95@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"243.196.54.161\"}, {\"type\": \"ORG\", \"value\": \"CoreSec\"}, {\"type\": \"URL\", \"value\": \"https://id.datasafe.co/authorize\"}, {\"type\": \"EMAIL\", \"value\": \"camila.xavier53@blackwall.security\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-058",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2024-09-27",
+    "severity": "Medium",
+    "description": "Assinatura de ataque de força bruta detectada contra https://status.deepguard.ai/login. IP atacante: 74.181.73.180. Conta potencialmente visada: Juliano Melo.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Juliano Melo\"}, {\"type\": \"EMAIL\", \"value\": \"juliano.melo5@deepguard.ai\"}, {\"type\": \"IP\", \"value\": \"74.181.73.180\"}, {\"type\": \"ORG\", \"value\": \"BlackWall Security\"}, {\"type\": \"URL\", \"value\": \"https://status.deepguard.ai/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-059",
+    "title": "Múltiplos resets de senha",
+    "date": "2024-11-10",
+    "severity": "High",
+    "description": "Diversas falhas de autenticação seguidas por sucesso vindo do IP 233.69.212.37. Usuário alvo: Joana Ferreira na BlueShield. Recurso: https://portal.sentinel.works.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Joana Ferreira\"}, {\"type\": \"EMAIL\", \"value\": \"joana.ferreira83@vertexlabs.com\"}, {\"type\": \"IP\", \"value\": \"233.69.212.37\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://portal.sentinel.works\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-060",
+    "title": "Conexões saindo em horário atípico",
+    "date": "2025-09-04",
+    "severity": "Critical",
+    "description": "Alerta: Detecção de tráfego anômalo originado de 242.70.129.139 conectado ao servidor da CypherWave. Contato do responsável: Adriana Franco, adriana.franco39@secureforge.cloud.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Adriana Franco\"}, {\"type\": \"EMAIL\", \"value\": \"adriana.franco39@secureforge.cloud\"}, {\"type\": \"IP\", \"value\": \"242.70.129.139\"}, {\"type\": \"ORG\", \"value\": \"CypherWave\"}, {\"type\": \"URL\", \"value\": \"https://audit.datasafe.co/events/60\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-061",
+    "title": "Cluster com configuração insegura",
+    "date": "2025-08-13",
+    "severity": "Medium",
+    "description": "Alerta: Detecção de tráfego anômalo originado de 247.173.215.221 conectado ao servidor da RapidSentinel. Contato do responsável: Caio Souza, caio.souza12@deepguard.ai.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Caio Souza\"}, {\"type\": \"EMAIL\", \"value\": \"caio.souza12@deepguard.ai\"}, {\"type\": \"IP\", \"value\": \"247.173.215.221\"}, {\"type\": \"ORG\", \"value\": \"RapidSentinel\"}, {\"type\": \"URL\", \"value\": \"https://portal.irongate.security\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-062",
+    "title": "Falhas repetidas de MFA",
+    "date": "2025-02-22",
+    "severity": "Low",
+    "description": "Detecção de beaconing periódico para https://audit.zerotrace.dev/events/62 a partir do IP 163.209.126.249. Máquina associada a Otávio Araújo (otávio.araújo24@sentinelcloud.net) na DataSafe.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Otávio Araújo\"}, {\"type\": \"EMAIL\", \"value\": \"otávio.araújo24@sentinelcloud.net\"}, {\"type\": \"IP\", \"value\": \"163.209.126.249\"}, {\"type\": \"ORG\", \"value\": \"DataSafe\"}, {\"type\": \"URL\", \"value\": \"https://audit.zerotrace.dev/events/62\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-063",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-03-31",
+    "severity": "High",
+    "description": "Detecção de beaconing periódico para https://portal.edgematrix.io a partir do IP 74.170.242.103. Máquina associada a Lorena Freitas (lorena.freitas89@horizonsec.app) na CipherNest. Email alternativo: lorena.freitas99@secureforge.cloud.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Lorena Freitas\"}, {\"type\": \"EMAIL\", \"value\": \"lorena.freitas89@horizonsec.app\"}, {\"type\": \"IP\", \"value\": \"74.170.242.103\"}, {\"type\": \"ORG\", \"value\": \"CipherNest\"}, {\"type\": \"URL\", \"value\": \"https://portal.edgematrix.io\"}, {\"type\": \"EMAIL\", \"value\": \"lorena.freitas99@secureforge.cloud\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-064",
+    "title": "Cluster com configuração insegura",
+    "date": "2025-10-02",
+    "severity": "Low",
+    "description": "Detecção de possível movimentação lateral: credenciais de Fábio Silva acessando múltiplos hosts. Último IP visto: 119.106.14.49.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Fábio Silva\"}, {\"type\": \"EMAIL\", \"value\": \"fábio.silva85@ciphernest.net\"}, {\"type\": \"IP\", \"value\": \"119.106.14.49\"}, {\"type\": \"ORG\", \"value\": \"TitanSec\"}, {\"type\": \"URL\", \"value\": \"https://sso.horizonsec.app/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-065",
+    "title": "Execução remota suspeita",
+    "date": "2025-07-18",
+    "severity": "Critical",
+    "description": "Relato recebido de Eduardo Melo (eduardo.melo57@horizonsec.app) informando acesso suspeito a recursos da TrustWave. IP observado: 32.8.250.162. Mais detalhes em https://api.quantumshield.io/v1/auth. Email alternativo: eduardo.melo15@edgematrix.io.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Eduardo Melo\"}, {\"type\": \"EMAIL\", \"value\": \"eduardo.melo57@horizonsec.app\"}, {\"type\": \"IP\", \"value\": \"32.8.250.162\"}, {\"type\": \"ORG\", \"value\": \"TrustWave\"}, {\"type\": \"URL\", \"value\": \"https://api.quantumshield.io/v1/auth\"}, {\"type\": \"EMAIL\", \"value\": \"eduardo.melo15@edgematrix.io\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-066",
+    "title": "Chaves API possivelmente comprometidas",
+    "date": "2025-04-28",
+    "severity": "Medium",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Renata Borges@IronGate. IP de saída: 239.184.75.131.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Renata Borges\"}, {\"type\": \"EMAIL\", \"value\": \"renata.borges20@horizonsec.app\"}, {\"type\": \"IP\", \"value\": \"239.184.75.131\"}, {\"type\": \"ORG\", \"value\": \"IronGate\"}, {\"type\": \"URL\", \"value\": \"https://cypherwave.ai/download/66\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-067",
+    "title": "Beaconing para domínio suspeito",
+    "date": "2024-09-30",
+    "severity": "High",
+    "description": "Relato recebido de Fábio Porto (fábio.porto18@blueshield.org) informando acesso suspeito a recursos da SecureForge. IP observado: 71.198.203.219. Mais detalhes em https://sso.titansec.pro/signin.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Fábio Porto\"}, {\"type\": \"EMAIL\", \"value\": \"fábio.porto18@blueshield.org\"}, {\"type\": \"IP\", \"value\": \"71.198.203.219\"}, {\"type\": \"ORG\", \"value\": \"SecureForge\"}, {\"type\": \"URL\", \"value\": \"https://sso.titansec.pro/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-068",
+    "title": "Alto volume de criação de usuários",
+    "date": "2024-11-25",
+    "severity": "Medium",
+    "description": "Equipe de suporte recebeu chamado de Elaine Gomes relatando perda de acesso após clique em link https://edgematrix.io/download/68. E-mail usado: elaine.gomes58@ciphernest.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Elaine Gomes\"}, {\"type\": \"EMAIL\", \"value\": \"elaine.gomes58@ciphernest.net\"}, {\"type\": \"IP\", \"value\": \"124.89.86.142\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://edgematrix.io/download/68\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-069",
+    "title": "Vazamento potencial de credenciais",
+    "date": "2025-05-22",
+    "severity": "High",
+    "description": "Alerta: Detecção de tráfego anômalo originado de 82.191.122.181 conectado ao servidor da Orbital Defense. Contato do responsável: Luana Tavares, luana.tavares53@novatech.io.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Luana Tavares\"}, {\"type\": \"EMAIL\", \"value\": \"luana.tavares53@novatech.io\"}, {\"type\": \"IP\", \"value\": \"82.191.122.181\"}, {\"type\": \"ORG\", \"value\": \"Orbital Defense\"}, {\"type\": \"URL\", \"value\": \"https://vertexlabs.com/download/69\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-070",
+    "title": "Ataque de força bruta prolongado",
+    "date": "2024-09-28",
+    "severity": "Critical",
+    "description": "Detecção de beaconing periódico para https://status.cypherwave.ai/login a partir do IP 4.185.37.105. Máquina associada a Otávio Rodrigues (otávio.rodrigues68@edgematrix.io) na Vertex Labs.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Otávio Rodrigues\"}, {\"type\": \"EMAIL\", \"value\": \"otávio.rodrigues68@edgematrix.io\"}, {\"type\": \"IP\", \"value\": \"4.185.37.105\"}, {\"type\": \"ORG\", \"value\": \"Vertex Labs\"}, {\"type\": \"URL\", \"value\": \"https://status.cypherwave.ai/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-071",
+    "title": "Movimentação lateral suspeita",
+    "date": "2024-08-28",
+    "severity": "High",
+    "description": "Assinatura de ataque de força bruta detectada contra https://portal.blueshield.org. IP atacante: 245.82.161.184. Conta potencialmente visada: Lorena Coelho.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Lorena Coelho\"}, {\"type\": \"EMAIL\", \"value\": \"lorena.coelho69@darknode.org\"}, {\"type\": \"IP\", \"value\": \"245.82.161.184\"}, {\"type\": \"ORG\", \"value\": \"CypherWave\"}, {\"type\": \"URL\", \"value\": \"https://portal.blueshield.org\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-072",
+    "title": "Breach em conta de serviço",
+    "date": "2024-02-27",
+    "severity": "High",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Julia Fernandes. Repositório da NovaTech. Detalhes em https://portal.redoakcyber.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Julia Fernandes\"}, {\"type\": \"EMAIL\", \"value\": \"julia.fernandes13@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"114.43.178.77\"}, {\"type\": \"ORG\", \"value\": \"NovaTech\"}, {\"type\": \"URL\", \"value\": \"https://portal.redoakcyber.net\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-073",
+    "title": "Elevação de privilégio suspeita",
+    "date": "2025-08-20",
+    "severity": "Critical",
+    "description": "Relatório automático: múltiplas tentativas de login falhas no portal https://horizonsec.app/support/ticket/73 por endereço IP 44.45.21.157. Usuário-alvo: Aline Castro (aline.castro53@fortidata.com).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Aline Castro\"}, {\"type\": \"EMAIL\", \"value\": \"aline.castro53@fortidata.com\"}, {\"type\": \"IP\", \"value\": \"44.45.21.157\"}, {\"type\": \"ORG\", \"value\": \"Orbital Defense\"}, {\"type\": \"URL\", \"value\": \"https://horizonsec.app/support/ticket/73\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-074",
+    "title": "Manipulação de logs de auditoria",
+    "date": "2025-03-28",
+    "severity": "High",
+    "description": "Alto volume de requisições a https://api.blueshield.org/v1/auth originando do IP 231.206.120.231. Conta envolvida: Renato Gonçalves (renato.gonçalves86@example.com) na HexaSecure.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Renato Gonçalves\"}, {\"type\": \"EMAIL\", \"value\": \"renato.gonçalves86@example.com\"}, {\"type\": \"IP\", \"value\": \"231.206.120.231\"}, {\"type\": \"ORG\", \"value\": \"HexaSecure\"}, {\"type\": \"URL\", \"value\": \"https://api.blueshield.org/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-075",
+    "title": "Breach em conta de serviço",
+    "date": "2025-01-25",
+    "severity": "High",
+    "description": "Atividade fora do horário: acessos de Sabrina Franco (sabrina.franco33@edgematrix.io) a https://status.trustwave.cloud/login às 03:00 AM. IP de origem: 217.78.51.99.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Sabrina Franco\"}, {\"type\": \"EMAIL\", \"value\": \"sabrina.franco33@edgematrix.io\"}, {\"type\": \"IP\", \"value\": \"217.78.51.99\"}, {\"type\": \"ORG\", \"value\": \"EdgeMatrix\"}, {\"type\": \"URL\", \"value\": \"https://status.trustwave.cloud/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-076",
+    "title": "Desvio de política de firewall",
+    "date": "2024-08-23",
+    "severity": "High",
+    "description": "Diversas falhas de autenticação seguidas por sucesso vindo do IP 71.3.145.222. Usuário alvo: Carla Souza na CyberCore. Recurso: https://audit.aegisdyn.com/events/76.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Carla Souza\"}, {\"type\": \"EMAIL\", \"value\": \"carla.souza85@secureforge.cloud\"}, {\"type\": \"IP\", \"value\": \"71.3.145.222\"}, {\"type\": \"ORG\", \"value\": \"CyberCore\"}, {\"type\": \"URL\", \"value\": \"https://audit.aegisdyn.com/events/76\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-077",
+    "title": "Breach em conta de serviço",
+    "date": "2024-02-04",
+    "severity": "Medium",
+    "description": "Atividade fora do horário: acessos de Matheus Xavier (matheus.xavier33@alpha.solutions) a https://id.blackwall.security/authorize às 03:00 AM. IP de origem: 161.25.232.161. Email alternativo: matheus.xavier38@redoakcyber.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Matheus Xavier\"}, {\"type\": \"EMAIL\", \"value\": \"matheus.xavier33@alpha.solutions\"}, {\"type\": \"IP\", \"value\": \"161.25.232.161\"}, {\"type\": \"ORG\", \"value\": \"InfoSys\"}, {\"type\": \"URL\", \"value\": \"https://id.blackwall.security/authorize\"}, {\"type\": \"EMAIL\", \"value\": \"matheus.xavier38@redoakcyber.net\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-078",
+    "title": "Desvio de política de firewall",
+    "date": "2024-09-20",
+    "severity": "High",
+    "description": "Várias redefinições de senha para Maurício Carvalho (maurício.carvalho26@alpha.solutions) na ZeroTrace Labs. Endpoint acessado: https://id.sentinel.works/authorize. Origem de rede: 202.139.225.249.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Maurício Carvalho\"}, {\"type\": \"EMAIL\", \"value\": \"maurício.carvalho26@alpha.solutions\"}, {\"type\": \"IP\", \"value\": \"202.139.225.249\"}, {\"type\": \"ORG\", \"value\": \"ZeroTrace Labs\"}, {\"type\": \"URL\", \"value\": \"https://id.sentinel.works/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-079",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2025-02-08",
+    "severity": "Low",
+    "description": "Relato recebido de Manuela Almeida (manuela.almeida60@blueshield.org) informando acesso suspeito a recursos da DarkNode Analytics. IP observado: 37.194.248.58. Mais detalhes em https://sso.datasafe.co/signin.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Manuela Almeida\"}, {\"type\": \"EMAIL\", \"value\": \"manuela.almeida60@blueshield.org\"}, {\"type\": \"IP\", \"value\": \"37.194.248.58\"}, {\"type\": \"ORG\", \"value\": \"DarkNode Analytics\"}, {\"type\": \"URL\", \"value\": \"https://sso.datasafe.co/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-080",
+    "title": "Credenciais administrativas reutilizadas",
+    "date": "2025-10-25",
+    "severity": "Critical",
+    "description": "Usuário Fernanda Correia reportou possível phishing. Recebeu e-mail de fernanda.correia49@orbitaldefense.com com link https://sso.deepguard.ai/signin solicitando credenciais da conta corporativa (NovaTech).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Fernanda Correia\"}, {\"type\": \"EMAIL\", \"value\": \"fernanda.correia49@orbitaldefense.com\"}, {\"type\": \"IP\", \"value\": \"28.173.60.121\"}, {\"type\": \"ORG\", \"value\": \"NovaTech\"}, {\"type\": \"URL\", \"value\": \"https://sso.deepguard.ai/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-081",
+    "title": "Conexões saindo em horário atípico",
+    "date": "2024-04-09",
+    "severity": "Medium",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Hugo Borges@Aegis Dynamics. IP de saída: 36.12.243.10.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Hugo Borges\"}, {\"type\": \"EMAIL\", \"value\": \"hugo.borges53@netsecure.io\"}, {\"type\": \"IP\", \"value\": \"36.12.243.10\"}, {\"type\": \"ORG\", \"value\": \"Aegis Dynamics\"}, {\"type\": \"URL\", \"value\": \"https://audit.netsecure.io/events/81\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-082",
+    "title": "Token exposto em pipeline CI",
+    "date": "2025-05-16",
+    "severity": "High",
+    "description": "Diversas falhas de autenticação seguidas por sucesso vindo do IP 108.151.191.187. Usuário alvo: Henrique Figueiredo na Vertex Labs. Recurso: https://cloudline.com/download/82. Email alternativo: henrique.figueiredo48@coresec.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Henrique Figueiredo\"}, {\"type\": \"EMAIL\", \"value\": \"henrique.figueiredo96@ciphernest.net\"}, {\"type\": \"IP\", \"value\": \"108.151.191.187\"}, {\"type\": \"ORG\", \"value\": \"Vertex Labs\"}, {\"type\": \"URL\", \"value\": \"https://cloudline.com/download/82\"}, {\"type\": \"EMAIL\", \"value\": \"henrique.figueiredo48@coresec.net\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-083",
+    "title": "Anomalia em autenticação SSO",
+    "date": "2025-02-11",
+    "severity": "Low",
+    "description": "Falhas de MFA registradas para conta de Otávio Vieira (otávio.vieira31@orbitaldefense.com) ao acessar https://sso.cybercore.net/signin. Origem: 26.252.176.95.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Otávio Vieira\"}, {\"type\": \"EMAIL\", \"value\": \"otávio.vieira31@orbitaldefense.com\"}, {\"type\": \"IP\", \"value\": \"26.252.176.95\"}, {\"type\": \"ORG\", \"value\": \"BrightLock\"}, {\"type\": \"URL\", \"value\": \"https://sso.cybercore.net/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-084",
+    "title": "Desvio de política de firewall",
+    "date": "2024-09-06",
+    "severity": "Medium",
+    "description": "Relatório automático: múltiplas tentativas de login falhas no portal https://portal.vectorguard.ai por endereço IP 165.164.153.249. Usuário-alvo: Renato Costa (renato.costa85@coresec.net). Email alternativo: renato.costa98@rapidsentinel.com.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Renato Costa\"}, {\"type\": \"EMAIL\", \"value\": \"renato.costa85@coresec.net\"}, {\"type\": \"IP\", \"value\": \"165.164.153.249\"}, {\"type\": \"ORG\", \"value\": \"NovaTech\"}, {\"type\": \"URL\", \"value\": \"https://portal.vectorguard.ai\"}, {\"type\": \"EMAIL\", \"value\": \"renato.costa98@rapidsentinel.com\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-085",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-05-13",
+    "severity": "Medium",
+    "description": "Download não autorizado de binário suspeito hospedado em https://id.vertexlabs.com/authorize. Requisição partiu do IP 85.199.38.202. Conta: Diego Correia. Email alternativo: diego.correia4@alpha.solutions.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Diego Correia\"}, {\"type\": \"EMAIL\", \"value\": \"diego.correia28@deepguard.ai\"}, {\"type\": \"IP\", \"value\": \"85.199.38.202\"}, {\"type\": \"ORG\", \"value\": \"Acme Security\"}, {\"type\": \"URL\", \"value\": \"https://id.vertexlabs.com/authorize\"}, {\"type\": \"EMAIL\", \"value\": \"diego.correia4@alpha.solutions\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-086",
+    "title": "Tentativas de login anômalas",
+    "date": "2024-04-26",
+    "severity": "Critical",
+    "description": "Serviço exposto em https://brightlock.io/download/86 apresentou tentativas de privilege escalation do IP 5.45.68.14. Operador interno: Mariana Teixeira.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Mariana Teixeira\"}, {\"type\": \"EMAIL\", \"value\": \"mariana.teixeira31@redoakcyber.net\"}, {\"type\": \"IP\", \"value\": \"5.45.68.14\"}, {\"type\": \"ORG\", \"value\": \"Alpha Solutions\"}, {\"type\": \"URL\", \"value\": \"https://brightlock.io/download/86\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-087",
+    "title": "Phishing reportado por usuário",
+    "date": "2025-10-20",
+    "severity": "Critical",
+    "description": "Relato recebido de Arthur Assis (arthur.assis76@cloudline.com) informando acesso suspeito a recursos da InfoSys. IP observado: 116.129.57.243. Mais detalhes em https://id.edgematrix.io/authorize.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Arthur Assis\"}, {\"type\": \"EMAIL\", \"value\": \"arthur.assis76@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"116.129.57.243\"}, {\"type\": \"ORG\", \"value\": \"InfoSys\"}, {\"type\": \"URL\", \"value\": \"https://id.edgematrix.io/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-088",
+    "title": "Ransomware em servidor de arquivos",
+    "date": "2024-03-08",
+    "severity": "High",
+    "description": "Relatório automático: múltiplas tentativas de login falhas no portal https://sso.vertexlabs.com/signin por endereço IP 183.233.114.19. Usuário-alvo: Sabrina Coelho (sabrina.coelho14@horizonsec.app).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Sabrina Coelho\"}, {\"type\": \"EMAIL\", \"value\": \"sabrina.coelho14@horizonsec.app\"}, {\"type\": \"IP\", \"value\": \"183.233.114.19\"}, {\"type\": \"ORG\", \"value\": \"DataSafe\"}, {\"type\": \"URL\", \"value\": \"https://sso.vertexlabs.com/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-089",
+    "title": "Token exposto em pipeline CI",
+    "date": "2025-04-07",
+    "severity": "High",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Jéssica Melo@NetSecure. IP de saída: 155.111.26.204.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Jéssica Melo\"}, {\"type\": \"EMAIL\", \"value\": \"jéssica.melo59@titansec.pro\"}, {\"type\": \"IP\", \"value\": \"155.111.26.204\"}, {\"type\": \"ORG\", \"value\": \"NetSecure\"}, {\"type\": \"URL\", \"value\": \"https://sentinelcloud.net/support/ticket/89\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-090",
+    "title": "Tentativas de login anômalas",
+    "date": "2025-04-30",
+    "severity": "Low",
+    "description": "Usuário Igor Freitas reportou possível phishing. Recebeu e-mail de igor.freitas94@cloudline.com com link https://sso.vertexlabs.com/signin solicitando credenciais da conta corporativa (NimbusTech). Email alternativo: igor.freitas13@orbitaldefense.com.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Igor Freitas\"}, {\"type\": \"EMAIL\", \"value\": \"igor.freitas94@cloudline.com\"}, {\"type\": \"IP\", \"value\": \"81.110.81.171\"}, {\"type\": \"ORG\", \"value\": \"NimbusTech\"}, {\"type\": \"URL\", \"value\": \"https://sso.vertexlabs.com/signin\"}, {\"type\": \"EMAIL\", \"value\": \"igor.freitas13@orbitaldefense.com\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-091",
+    "title": "Ataque de força bruta prolongado",
+    "date": "2024-02-22",
+    "severity": "High",
+    "description": "Pipeline detectou token exposto em commit recente. Autor: Eduardo Reis. Repositório da SecureForge. Detalhes em https://sso.sentinelcloud.net/signin.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Eduardo Reis\"}, {\"type\": \"EMAIL\", \"value\": \"eduardo.reis8@rapidsentinel.com\"}, {\"type\": \"IP\", \"value\": \"144.85.172.32\"}, {\"type\": \"ORG\", \"value\": \"SecureForge\"}, {\"type\": \"URL\", \"value\": \"https://sso.sentinelcloud.net/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-092",
+    "title": "Elevação de privilégio suspeita",
+    "date": "2024-10-12",
+    "severity": "Critical",
+    "description": "Atividade fora do horário: acessos de Cristiano Barbosa (cristiano.barbosa20@cypherwave.ai) a https://sso.netsecure.io/signin às 03:00 AM. IP de origem: 58.217.28.90.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Cristiano Barbosa\"}, {\"type\": \"EMAIL\", \"value\": \"cristiano.barbosa20@cypherwave.ai\"}, {\"type\": \"IP\", \"value\": \"58.217.28.90\"}, {\"type\": \"ORG\", \"value\": \"CipherNest\"}, {\"type\": \"URL\", \"value\": \"https://sso.netsecure.io/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-093",
+    "title": "Domínio recém-registrado em comunicação",
+    "date": "2024-01-07",
+    "severity": "Medium",
+    "description": "Detectado malware comunicando-se com C2 via 8.47.70.180. Host afetado pertence à empresa Aegis Dynamics. Ponto de contato: Ana Guimarães.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Ana Guimarães\"}, {\"type\": \"EMAIL\", \"value\": \"ana.guimarães85@irongate.security\"}, {\"type\": \"IP\", \"value\": \"8.47.70.180\"}, {\"type\": \"ORG\", \"value\": \"Aegis Dynamics\"}, {\"type\": \"URL\", \"value\": \"https://sso.zerotrace.dev/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-094",
+    "title": "Breach em conta de serviço",
+    "date": "2024-12-15",
+    "severity": "High",
+    "description": "Detectado malware comunicando-se com C2 via 24.192.136.56. Host afetado pertence à empresa Orbital Defense. Ponto de contato: Igor Pereira.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Igor Pereira\"}, {\"type\": \"EMAIL\", \"value\": \"igor.pereira19@acme.com\"}, {\"type\": \"IP\", \"value\": \"24.192.136.56\"}, {\"type\": \"ORG\", \"value\": \"Orbital Defense\"}, {\"type\": \"URL\", \"value\": \"https://edgematrix.io/download/94\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-095",
+    "title": "Exploração de vulnerabilidade zero-day",
+    "date": "2025-11-08",
+    "severity": "Critical",
+    "description": "Logs mostram tentativas de execução remota via https://id.blackwall.security/authorize associadas ao IP 194.159.13.173. Operador reportado: Carlos Santos (carlos.santos20@sentinel.works).",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Carlos Santos\"}, {\"type\": \"EMAIL\", \"value\": \"carlos.santos20@sentinel.works\"}, {\"type\": \"IP\", \"value\": \"194.159.13.173\"}, {\"type\": \"ORG\", \"value\": \"DataSafe\"}, {\"type\": \"URL\", \"value\": \"https://id.blackwall.security/authorize\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-096",
+    "title": "Ataque de força bruta prolongado",
+    "date": "2024-08-13",
+    "severity": "Low",
+    "description": "Investigação de potencial exploração zero-day: tráfego incomum do IP 89.111.29.73 tentando acesso a https://id.novatech.io/authorize. Usuário interno: Paula Neves. Email alternativo: paula.neves39@coresec.net.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Paula Neves\"}, {\"type\": \"EMAIL\", \"value\": \"paula.neves66@netsecure.io\"}, {\"type\": \"IP\", \"value\": \"89.111.29.73\"}, {\"type\": \"ORG\", \"value\": \"CypherWave\"}, {\"type\": \"URL\", \"value\": \"https://id.novatech.io/authorize\"}, {\"type\": \"EMAIL\", \"value\": \"paula.neves39@coresec.net\"}]",
+    "entity_count": 6
+  },
+  {
+    "ticket_id": "TCKT-097",
+    "title": "Alto volume de criação de usuários",
+    "date": "2025-01-24",
+    "severity": "Medium",
+    "description": "Download não autorizado de binário suspeito hospedado em https://api.alpha.solutions/v1/auth. Requisição partiu do IP 84.31.2.128. Conta: Sofia Neves.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Sofia Neves\"}, {\"type\": \"EMAIL\", \"value\": \"sofia.neves33@aegisdyn.com\"}, {\"type\": \"IP\", \"value\": \"84.31.2.128\"}, {\"type\": \"ORG\", \"value\": \"BlueOrbit\"}, {\"type\": \"URL\", \"value\": \"https://api.alpha.solutions/v1/auth\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-098",
+    "title": "Alto volume de criação de usuários",
+    "date": "2025-08-10",
+    "severity": "Critical",
+    "description": "Investigação de potencial exploração zero-day: tráfego incomum do IP 112.5.118.236 tentando acesso a https://sso.sentinelcloud.net/signin. Usuário interno: Enzo Pereira.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Enzo Pereira\"}, {\"type\": \"EMAIL\", \"value\": \"enzo.pereira51@novatech.io\"}, {\"type\": \"IP\", \"value\": \"112.5.118.236\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://sso.sentinelcloud.net/signin\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-099",
+    "title": "Token exposto em pipeline CI",
+    "date": "2024-04-18",
+    "severity": "Critical",
+    "description": "Suspeita de exfiltração para domínio externo. Arquivos acessados por conta de Igor Souza@ZeroTrace Labs. IP de saída: 206.243.159.118.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Igor Souza\"}, {\"type\": \"EMAIL\", \"value\": \"igor.souza42@sentinel.works\"}, {\"type\": \"IP\", \"value\": \"206.243.159.118\"}, {\"type\": \"ORG\", \"value\": \"ZeroTrace Labs\"}, {\"type\": \"URL\", \"value\": \"https://status.sentinelcloud.net/login\"}]",
+    "entity_count": 5
+  },
+  {
+    "ticket_id": "TCKT-100",
+    "title": "Conexões saindo em horário atípico",
+    "date": "2025-06-06",
+    "severity": "High",
+    "description": "Equipe de suporte recebeu chamado de Melissa Moura relatando perda de acesso após clique em link https://status.brightlock.io/login. E-mail usado: melissa.moura96@vectorguard.ai.",
+    "entities": "[{\"type\": \"PERSON\", \"value\": \"Melissa Moura\"}, {\"type\": \"EMAIL\", \"value\": \"melissa.moura96@vectorguard.ai\"}, {\"type\": \"IP\", \"value\": \"57.86.200.44\"}, {\"type\": \"ORG\", \"value\": \"BlueShield\"}, {\"type\": \"URL\", \"value\": \"https://status.brightlock.io/login\"}]",
+    "entity_count": 5
+  }
+]

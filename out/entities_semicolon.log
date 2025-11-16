@@ -1,0 +1,517 @@
+ticket_id;type;value
+TCKT-001;PERSON;Thiago Souza
+TCKT-001;EMAIL;thiago.souza95@irongate.security
+TCKT-001;IP;63.58.36.189
+TCKT-001;ORG;CloudLine
+TCKT-001;URL;https://status.sentinelcloud.net/login
+TCKT-002;PERSON;Ana Reis
+TCKT-002;EMAIL;ana.reis26@ciphernest.net
+TCKT-002;IP;108.57.115.151
+TCKT-002;ORG;IronGate
+TCKT-002;URL;https://portal.sentinel.works
+TCKT-003;PERSON;Manuela Rodrigues
+TCKT-003;EMAIL;manuela.rodrigues12@darknode.org
+TCKT-003;IP;25.92.217.89
+TCKT-003;ORG;NimbusTech
+TCKT-003;URL;https://portal.edgematrix.io
+TCKT-004;PERSON;Arthur Sales
+TCKT-004;EMAIL;arthur.sales25@blueshield.org
+TCKT-004;IP;12.170.59.198
+TCKT-004;ORG;HexaSecure
+TCKT-004;URL;https://status.deepguard.ai/login
+TCKT-005;PERSON;Arthur Ribeiro
+TCKT-005;EMAIL;arthur.ribeiro48@zerotrace.dev
+TCKT-005;IP;54.172.69.180
+TCKT-005;ORG;BlueShield
+TCKT-005;URL;https://api.ciphernest.net/v1/auth
+TCKT-006;PERSON;Vinícius Coelho
+TCKT-006;EMAIL;vinícius.coelho42@cybercore.net
+TCKT-006;IP;59.211.9.207
+TCKT-006;ORG;Quantum Shield
+TCKT-006;URL;https://irongate.security/download/6
+TCKT-007;PERSON;Simone Pinto
+TCKT-007;EMAIL;simone.pinto83@edgematrix.io
+TCKT-007;IP;37.68.36.64
+TCKT-007;ORG;CipherNest
+TCKT-007;URL;https://id.sentinelcloud.net/authorize
+TCKT-008;PERSON;Sofia Assis
+TCKT-008;EMAIL;sofia.assis64@datasafe.co
+TCKT-008;IP;194.13.221.29
+TCKT-008;ORG;Vertex Labs
+TCKT-008;URL;https://api.sentinelcloud.net/v1/auth
+TCKT-009;PERSON;Adriana Castro
+TCKT-009;EMAIL;adriana.castro33@rapidsentinel.com
+TCKT-009;IP;221.242.3.175
+TCKT-009;ORG;NetSecure
+TCKT-009;URL;https://id.vectorguard.ai/authorize
+TCKT-010;PERSON;Fernanda Assis
+TCKT-010;EMAIL;fernanda.assis98@fortidata.com
+TCKT-010;IP;130.234.28.223
+TCKT-010;ORG;Aegis Dynamics
+TCKT-010;URL;https://vertexlabs.com/support/ticket/10
+TCKT-011;PERSON;Elaine Souza
+TCKT-011;EMAIL;elaine.souza15@orbitaldefense.com
+TCKT-011;IP;225.253.213.207
+TCKT-011;ORG;Aegis Dynamics
+TCKT-011;URL;https://cybercore.net/support/ticket/11
+TCKT-012;PERSON;Bruno Neves
+TCKT-012;EMAIL;bruno.neves69@alpha.solutions
+TCKT-012;IP;33.169.122.243
+TCKT-012;ORG;CipherNest
+TCKT-012;URL;https://api.nimbustech.dev/v1/auth
+TCKT-013;PERSON;Bianca Queiroz
+TCKT-013;EMAIL;bianca.queiroz40@secureforge.cloud
+TCKT-013;IP;172.167.96.113
+TCKT-013;ORG;TitanSec
+TCKT-013;URL;https://audit.netsecure.io/events/13
+TCKT-013;EMAIL;bianca.queiroz71@deepguard.ai
+TCKT-014;PERSON;Vinícius Silva
+TCKT-014;EMAIL;vinícius.silva10@cybercore.net
+TCKT-014;IP;59.18.232.9
+TCKT-014;ORG;RedOak Cyber
+TCKT-014;URL;https://status.titansec.pro/login
+TCKT-015;PERSON;Eduardo Amaral
+TCKT-015;EMAIL;eduardo.amaral74@cypherwave.ai
+TCKT-015;IP;63.201.122.207
+TCKT-015;ORG;SecureForge
+TCKT-015;URL;https://cloudline.com/support/ticket/15
+TCKT-016;PERSON;Adriana Amaral
+TCKT-016;EMAIL;adriana.amaral7@cloudline.com
+TCKT-016;IP;16.104.187.87
+TCKT-016;ORG;CloudLine
+TCKT-016;URL;https://shieldops.io/support/ticket/16
+TCKT-017;PERSON;Priscila Rocha
+TCKT-017;EMAIL;priscila.rocha32@blueshield.org
+TCKT-017;IP;114.207.221.220
+TCKT-017;ORG;CipherNest
+TCKT-017;URL;https://status.cybercore.net/login
+TCKT-018;PERSON;Rodrigo Ribeiro
+TCKT-018;EMAIL;rodrigo.ribeiro53@horizonsec.app
+TCKT-018;IP;124.55.222.103
+TCKT-018;ORG;CyberCore
+TCKT-018;URL;https://api.darknode.org/v1/auth
+TCKT-019;PERSON;Elaine Gomes
+TCKT-019;EMAIL;elaine.gomes25@aegisdyn.com
+TCKT-019;IP;56.248.15.149
+TCKT-019;ORG;BrightLock
+TCKT-019;URL;https://portal.redoakcyber.net
+TCKT-020;PERSON;Jéssica Ribeiro
+TCKT-020;EMAIL;jéssica.ribeiro8@titansec.pro
+TCKT-020;IP;21.218.48.18
+TCKT-020;ORG;BlueShield
+TCKT-020;URL;https://secureforge.cloud/support/ticket/20
+TCKT-021;PERSON;Maurício Figueiredo
+TCKT-021;EMAIL;maurício.figueiredo75@brightlock.io
+TCKT-021;IP;81.240.67.53
+TCKT-021;ORG;Quantum Shield
+TCKT-021;URL;https://nimbustech.dev/support/ticket/21
+TCKT-022;PERSON;Larissa Silva
+TCKT-022;EMAIL;larissa.silva59@cloudline.com
+TCKT-022;IP;19.138.55.130
+TCKT-022;ORG;NimbusTech
+TCKT-022;URL;https://api.zerotrace.dev/v1/auth
+TCKT-022;EMAIL;larissa.silva70@quantumshield.io
+TCKT-023;PERSON;Jéssica Silva
+TCKT-023;EMAIL;jéssica.silva86@rapidsentinel.com
+TCKT-023;IP;77.239.170.27
+TCKT-023;ORG;Alpha Solutions
+TCKT-023;URL;https://id.netsecure.io/authorize
+TCKT-024;PERSON;Diego Queiroz
+TCKT-024;EMAIL;diego.queiroz44@coresec.net
+TCKT-024;IP;176.163.219.68
+TCKT-024;ORG;HorizonSec
+TCKT-024;URL;https://audit.nimbustech.dev/events/24
+TCKT-025;PERSON;Beatriz Silva
+TCKT-025;EMAIL;beatriz.silva43@alpha.solutions
+TCKT-025;IP;164.251.68.42
+TCKT-025;ORG;Sentinel Cloud
+TCKT-025;URL;https://rapidsentinel.com/download/25
+TCKT-026;PERSON;Henrique Correia
+TCKT-026;EMAIL;henrique.correia71@vertexlabs.com
+TCKT-026;IP;111.33.11.79
+TCKT-026;ORG;ZeroTrace Labs
+TCKT-026;URL;https://portal.zerotrace.dev
+TCKT-027;PERSON;Leandro Xavier
+TCKT-027;EMAIL;leandro.xavier96@vertexlabs.com
+TCKT-027;IP;237.239.61.222
+TCKT-027;ORG;SentinelWorks
+TCKT-027;URL;https://api.blueorbit.dev/v1/auth
+TCKT-028;PERSON;Leandro Figueiredo
+TCKT-028;EMAIL;leandro.figueiredo95@trustwave.cloud
+TCKT-028;IP;69.41.202.180
+TCKT-028;ORG;CloudLine
+TCKT-028;URL;https://novatech.io/download/28
+TCKT-029;PERSON;Luana Ferreira
+TCKT-029;EMAIL;luana.ferreira4@shieldops.io
+TCKT-029;IP;103.85.72.222
+TCKT-029;ORG;BlueShield
+TCKT-029;URL;https://id.zerotrace.dev/authorize
+TCKT-030;PERSON;Thiago Gonçalves
+TCKT-030;EMAIL;thiago.gonçalves23@nimbustech.dev
+TCKT-030;IP;10.28.153.112
+TCKT-030;ORG;VectorGuard
+TCKT-030;URL;https://sso.sentinelcloud.net/signin
+TCKT-031;PERSON;Matheus Gonçalves
+TCKT-031;EMAIL;matheus.gonçalves6@sentinelcloud.net
+TCKT-031;IP;1.134.237.207
+TCKT-031;ORG;BrightLock
+TCKT-031;URL;https://orbitaldefense.com/support/ticket/31
+TCKT-032;PERSON;Renata Amaral
+TCKT-032;EMAIL;renata.amaral39@titansec.pro
+TCKT-032;IP;80.171.105.84
+TCKT-032;ORG;DarkNode Analytics
+TCKT-032;URL;https://id.rapidsentinel.com/authorize
+TCKT-033;PERSON;João Xavier
+TCKT-033;EMAIL;joão.xavier73@quantumshield.io
+TCKT-033;IP;104.141.214.1
+TCKT-033;ORG;Aegis Dynamics
+TCKT-033;URL;https://id.coresec.net/authorize
+TCKT-034;PERSON;Otávio Coelho
+TCKT-034;EMAIL;otávio.coelho28@titansec.pro
+TCKT-034;IP;122.204.231.246
+TCKT-034;ORG;SentinelWorks
+TCKT-034;URL;https://status.aegisdyn.com/login
+TCKT-034;EMAIL;otávio.coelho97@trustwave.cloud
+TCKT-035;PERSON;Talita Ferreira
+TCKT-035;EMAIL;talita.ferreira26@vertexlabs.com
+TCKT-035;IP;7.12.63.252
+TCKT-035;ORG;EdgeMatrix
+TCKT-035;URL;https://status.edgematrix.io/login
+TCKT-036;PERSON;Stella Farias
+TCKT-036;EMAIL;stella.farias52@trustwave.cloud
+TCKT-036;IP;38.168.177.2
+TCKT-036;ORG;CloudLine
+TCKT-036;URL;https://deepguard.ai/download/36
+TCKT-036;EMAIL;stella.farias32@netsecure.io
+TCKT-037;PERSON;Renato Martins
+TCKT-037;EMAIL;renato.martins60@brightlock.io
+TCKT-037;IP;253.144.153.82
+TCKT-037;ORG;Sentinel Cloud
+TCKT-037;URL;https://rapidsentinel.com/download/37
+TCKT-038;PERSON;Aline Torres
+TCKT-038;EMAIL;aline.torres36@brightlock.io
+TCKT-038;IP;125.161.62.71
+TCKT-038;ORG;Sentinel Cloud
+TCKT-038;URL;https://status.aegisdyn.com/login
+TCKT-039;PERSON;Carlos Martins
+TCKT-039;EMAIL;carlos.martins20@deepguard.ai
+TCKT-039;IP;99.178.40.181
+TCKT-039;ORG;CoreSec
+TCKT-039;URL;https://status.blueorbit.dev/login
+TCKT-040;PERSON;Diego Freitas
+TCKT-040;EMAIL;diego.freitas50@acme.com
+TCKT-040;IP;220.226.196.148
+TCKT-040;ORG;Orbital Defense
+TCKT-040;URL;https://audit.example.com/events/40
+TCKT-041;PERSON;Maurício Macedo
+TCKT-041;EMAIL;maurício.macedo96@ciphernest.net
+TCKT-041;IP;205.155.230.57
+TCKT-041;ORG;CypherWave
+TCKT-041;URL;https://irongate.security/support/ticket/41
+TCKT-042;PERSON;Igor Amaral
+TCKT-042;EMAIL;igor.amaral22@edgematrix.io
+TCKT-042;IP;236.33.252.160
+TCKT-042;ORG;BrightLock
+TCKT-042;URL;https://portal.secureforge.cloud
+TCKT-042;EMAIL;igor.amaral55@alpha.solutions
+TCKT-043;PERSON;Adriana Carvalho
+TCKT-043;EMAIL;adriana.carvalho7@nimbustech.dev
+TCKT-043;IP;98.84.55.117
+TCKT-043;ORG;Quantum Shield
+TCKT-043;URL;https://sso.darknode.org/signin
+TCKT-044;PERSON;Joana Santos
+TCKT-044;EMAIL;joana.santos45@deepguard.ai
+TCKT-044;IP;167.18.200.246
+TCKT-044;ORG;InfoSys
+TCKT-044;URL;https://portal.trustwave.cloud
+TCKT-045;PERSON;Juliano Figueiredo
+TCKT-045;EMAIL;juliano.figueiredo15@coresec.net
+TCKT-045;IP;120.180.66.197
+TCKT-045;ORG;ZeroTrace Labs
+TCKT-045;URL;https://api.netsecure.io/v1/auth
+TCKT-046;PERSON;Nicole Pinto
+TCKT-046;EMAIL;nicole.pinto92@shieldops.io
+TCKT-046;IP;20.152.177.213
+TCKT-046;ORG;TrustWave
+TCKT-046;URL;https://status.quantumshield.io/login
+TCKT-047;PERSON;Sabrina Figueiredo
+TCKT-047;EMAIL;sabrina.figueiredo48@blueshield.org
+TCKT-047;IP;130.166.88.4
+TCKT-047;ORG;SecureForge
+TCKT-047;URL;https://audit.cloudline.com/events/47
+TCKT-048;PERSON;Yasmin Carvalho
+TCKT-048;EMAIL;yasmin.carvalho94@brightlock.io
+TCKT-048;IP;248.167.70.158
+TCKT-048;ORG;BrightLock
+TCKT-048;URL;https://audit.edgematrix.io/events/48
+TCKT-049;PERSON;Aline Costa
+TCKT-049;EMAIL;aline.costa36@blackwall.security
+TCKT-049;IP;63.193.119.146
+TCKT-049;ORG;Orbital Defense
+TCKT-049;URL;https://sso.acme.com/signin
+TCKT-050;PERSON;Fernanda Dias
+TCKT-050;EMAIL;fernanda.dias36@irongate.security
+TCKT-050;IP;143.3.133.243
+TCKT-050;ORG;ShieldOps
+TCKT-050;URL;https://status.trustwave.cloud/login
+TCKT-051;PERSON;Elaine Vieira
+TCKT-051;EMAIL;elaine.vieira3@datasafe.co
+TCKT-051;IP;76.57.104.178
+TCKT-051;ORG;TrustWave
+TCKT-051;URL;https://id.orbitaldefense.com/authorize
+TCKT-052;PERSON;Lorena Teixeira
+TCKT-052;EMAIL;lorena.teixeira90@edgematrix.io
+TCKT-052;IP;70.79.65.60
+TCKT-052;ORG;NetSecure
+TCKT-052;URL;https://redoakcyber.net/support/ticket/52
+TCKT-052;EMAIL;lorena.teixeira95@cypherwave.ai
+TCKT-053;PERSON;Priscila Amaral
+TCKT-053;EMAIL;priscila.amaral76@brightlock.io
+TCKT-053;IP;153.73.252.26
+TCKT-053;ORG;ShieldOps
+TCKT-053;URL;https://id.deepguard.ai/authorize
+TCKT-054;PERSON;Eduardo Araújo
+TCKT-054;EMAIL;eduardo.araújo6@cybercore.net
+TCKT-054;IP;142.75.179.242
+TCKT-054;ORG;Alpha Solutions
+TCKT-054;URL;https://audit.cloudline.com/events/54
+TCKT-055;PERSON;Manuela Carvalho
+TCKT-055;EMAIL;manuela.carvalho7@nimbustech.dev
+TCKT-055;IP;241.221.123.30
+TCKT-055;ORG;BlueShield
+TCKT-055;URL;https://horizonsec.app/download/55
+TCKT-055;EMAIL;manuela.carvalho73@quantumshield.io
+TCKT-056;PERSON;Carlos Nascimento
+TCKT-056;EMAIL;carlos.nascimento16@rapidsentinel.com
+TCKT-056;IP;196.107.156.153
+TCKT-056;ORG;DeepGuard
+TCKT-056;URL;https://blackwall.security/download/56
+TCKT-057;PERSON;Camila Xavier
+TCKT-057;EMAIL;camila.xavier95@cloudline.com
+TCKT-057;IP;243.196.54.161
+TCKT-057;ORG;CoreSec
+TCKT-057;URL;https://id.datasafe.co/authorize
+TCKT-057;EMAIL;camila.xavier53@blackwall.security
+TCKT-058;PERSON;Juliano Melo
+TCKT-058;EMAIL;juliano.melo5@deepguard.ai
+TCKT-058;IP;74.181.73.180
+TCKT-058;ORG;BlackWall Security
+TCKT-058;URL;https://status.deepguard.ai/login
+TCKT-059;PERSON;Joana Ferreira
+TCKT-059;EMAIL;joana.ferreira83@vertexlabs.com
+TCKT-059;IP;233.69.212.37
+TCKT-059;ORG;BlueShield
+TCKT-059;URL;https://portal.sentinel.works
+TCKT-060;PERSON;Adriana Franco
+TCKT-060;EMAIL;adriana.franco39@secureforge.cloud
+TCKT-060;IP;242.70.129.139
+TCKT-060;ORG;CypherWave
+TCKT-060;URL;https://audit.datasafe.co/events/60
+TCKT-061;PERSON;Caio Souza
+TCKT-061;EMAIL;caio.souza12@deepguard.ai
+TCKT-061;IP;247.173.215.221
+TCKT-061;ORG;RapidSentinel
+TCKT-061;URL;https://portal.irongate.security
+TCKT-062;PERSON;Otávio Araújo
+TCKT-062;EMAIL;otávio.araújo24@sentinelcloud.net
+TCKT-062;IP;163.209.126.249
+TCKT-062;ORG;DataSafe
+TCKT-062;URL;https://audit.zerotrace.dev/events/62
+TCKT-063;PERSON;Lorena Freitas
+TCKT-063;EMAIL;lorena.freitas89@horizonsec.app
+TCKT-063;IP;74.170.242.103
+TCKT-063;ORG;CipherNest
+TCKT-063;URL;https://portal.edgematrix.io
+TCKT-063;EMAIL;lorena.freitas99@secureforge.cloud
+TCKT-064;PERSON;Fábio Silva
+TCKT-064;EMAIL;fábio.silva85@ciphernest.net
+TCKT-064;IP;119.106.14.49
+TCKT-064;ORG;TitanSec
+TCKT-064;URL;https://sso.horizonsec.app/signin
+TCKT-065;PERSON;Eduardo Melo
+TCKT-065;EMAIL;eduardo.melo57@horizonsec.app
+TCKT-065;IP;32.8.250.162
+TCKT-065;ORG;TrustWave
+TCKT-065;URL;https://api.quantumshield.io/v1/auth
+TCKT-065;EMAIL;eduardo.melo15@edgematrix.io
+TCKT-066;PERSON;Renata Borges
+TCKT-066;EMAIL;renata.borges20@horizonsec.app
+TCKT-066;IP;239.184.75.131
+TCKT-066;ORG;IronGate
+TCKT-066;URL;https://cypherwave.ai/download/66
+TCKT-067;PERSON;Fábio Porto
+TCKT-067;EMAIL;fábio.porto18@blueshield.org
+TCKT-067;IP;71.198.203.219
+TCKT-067;ORG;SecureForge
+TCKT-067;URL;https://sso.titansec.pro/signin
+TCKT-068;PERSON;Elaine Gomes
+TCKT-068;EMAIL;elaine.gomes58@ciphernest.net
+TCKT-068;IP;124.89.86.142
+TCKT-068;ORG;BrightLock
+TCKT-068;URL;https://edgematrix.io/download/68
+TCKT-069;PERSON;Luana Tavares
+TCKT-069;EMAIL;luana.tavares53@novatech.io
+TCKT-069;IP;82.191.122.181
+TCKT-069;ORG;Orbital Defense
+TCKT-069;URL;https://vertexlabs.com/download/69
+TCKT-070;PERSON;Otávio Rodrigues
+TCKT-070;EMAIL;otávio.rodrigues68@edgematrix.io
+TCKT-070;IP;4.185.37.105
+TCKT-070;ORG;Vertex Labs
+TCKT-070;URL;https://status.cypherwave.ai/login
+TCKT-071;PERSON;Lorena Coelho
+TCKT-071;EMAIL;lorena.coelho69@darknode.org
+TCKT-071;IP;245.82.161.184
+TCKT-071;ORG;CypherWave
+TCKT-071;URL;https://portal.blueshield.org
+TCKT-072;PERSON;Julia Fernandes
+TCKT-072;EMAIL;julia.fernandes13@cloudline.com
+TCKT-072;IP;114.43.178.77
+TCKT-072;ORG;NovaTech
+TCKT-072;URL;https://portal.redoakcyber.net
+TCKT-073;PERSON;Aline Castro
+TCKT-073;EMAIL;aline.castro53@fortidata.com
+TCKT-073;IP;44.45.21.157
+TCKT-073;ORG;Orbital Defense
+TCKT-073;URL;https://horizonsec.app/support/ticket/73
+TCKT-074;PERSON;Renato Gonçalves
+TCKT-074;EMAIL;renato.gonçalves86@example.com
+TCKT-074;IP;231.206.120.231
+TCKT-074;ORG;HexaSecure
+TCKT-074;URL;https://api.blueshield.org/v1/auth
+TCKT-075;PERSON;Sabrina Franco
+TCKT-075;EMAIL;sabrina.franco33@edgematrix.io
+TCKT-075;IP;217.78.51.99
+TCKT-075;ORG;EdgeMatrix
+TCKT-075;URL;https://status.trustwave.cloud/login
+TCKT-076;PERSON;Carla Souza
+TCKT-076;EMAIL;carla.souza85@secureforge.cloud
+TCKT-076;IP;71.3.145.222
+TCKT-076;ORG;CyberCore
+TCKT-076;URL;https://audit.aegisdyn.com/events/76
+TCKT-077;PERSON;Matheus Xavier
+TCKT-077;EMAIL;matheus.xavier33@alpha.solutions
+TCKT-077;IP;161.25.232.161
+TCKT-077;ORG;InfoSys
+TCKT-077;URL;https://id.blackwall.security/authorize
+TCKT-077;EMAIL;matheus.xavier38@redoakcyber.net
+TCKT-078;PERSON;Maurício Carvalho
+TCKT-078;EMAIL;maurício.carvalho26@alpha.solutions
+TCKT-078;IP;202.139.225.249
+TCKT-078;ORG;ZeroTrace Labs
+TCKT-078;URL;https://id.sentinel.works/authorize
+TCKT-079;PERSON;Manuela Almeida
+TCKT-079;EMAIL;manuela.almeida60@blueshield.org
+TCKT-079;IP;37.194.248.58
+TCKT-079;ORG;DarkNode Analytics
+TCKT-079;URL;https://sso.datasafe.co/signin
+TCKT-080;PERSON;Fernanda Correia
+TCKT-080;EMAIL;fernanda.correia49@orbitaldefense.com
+TCKT-080;IP;28.173.60.121
+TCKT-080;ORG;NovaTech
+TCKT-080;URL;https://sso.deepguard.ai/signin
+TCKT-081;PERSON;Hugo Borges
+TCKT-081;EMAIL;hugo.borges53@netsecure.io
+TCKT-081;IP;36.12.243.10
+TCKT-081;ORG;Aegis Dynamics
+TCKT-081;URL;https://audit.netsecure.io/events/81
+TCKT-082;PERSON;Henrique Figueiredo
+TCKT-082;EMAIL;henrique.figueiredo96@ciphernest.net
+TCKT-082;IP;108.151.191.187
+TCKT-082;ORG;Vertex Labs
+TCKT-082;URL;https://cloudline.com/download/82
+TCKT-082;EMAIL;henrique.figueiredo48@coresec.net
+TCKT-083;PERSON;Otávio Vieira
+TCKT-083;EMAIL;otávio.vieira31@orbitaldefense.com
+TCKT-083;IP;26.252.176.95
+TCKT-083;ORG;BrightLock
+TCKT-083;URL;https://sso.cybercore.net/signin
+TCKT-084;PERSON;Renato Costa
+TCKT-084;EMAIL;renato.costa85@coresec.net
+TCKT-084;IP;165.164.153.249
+TCKT-084;ORG;NovaTech
+TCKT-084;URL;https://portal.vectorguard.ai
+TCKT-084;EMAIL;renato.costa98@rapidsentinel.com
+TCKT-085;PERSON;Diego Correia
+TCKT-085;EMAIL;diego.correia28@deepguard.ai
+TCKT-085;IP;85.199.38.202
+TCKT-085;ORG;Acme Security
+TCKT-085;URL;https://id.vertexlabs.com/authorize
+TCKT-085;EMAIL;diego.correia4@alpha.solutions
+TCKT-086;PERSON;Mariana Teixeira
+TCKT-086;EMAIL;mariana.teixeira31@redoakcyber.net
+TCKT-086;IP;5.45.68.14
+TCKT-086;ORG;Alpha Solutions
+TCKT-086;URL;https://brightlock.io/download/86
+TCKT-087;PERSON;Arthur Assis
+TCKT-087;EMAIL;arthur.assis76@cloudline.com
+TCKT-087;IP;116.129.57.243
+TCKT-087;ORG;InfoSys
+TCKT-087;URL;https://id.edgematrix.io/authorize
+TCKT-088;PERSON;Sabrina Coelho
+TCKT-088;EMAIL;sabrina.coelho14@horizonsec.app
+TCKT-088;IP;183.233.114.19
+TCKT-088;ORG;DataSafe
+TCKT-088;URL;https://sso.vertexlabs.com/signin
+TCKT-089;PERSON;Jéssica Melo
+TCKT-089;EMAIL;jéssica.melo59@titansec.pro
+TCKT-089;IP;155.111.26.204
+TCKT-089;ORG;NetSecure
+TCKT-089;URL;https://sentinelcloud.net/support/ticket/89
+TCKT-090;PERSON;Igor Freitas
+TCKT-090;EMAIL;igor.freitas94@cloudline.com
+TCKT-090;IP;81.110.81.171
+TCKT-090;ORG;NimbusTech
+TCKT-090;URL;https://sso.vertexlabs.com/signin
+TCKT-090;EMAIL;igor.freitas13@orbitaldefense.com
+TCKT-091;PERSON;Eduardo Reis
+TCKT-091;EMAIL;eduardo.reis8@rapidsentinel.com
+TCKT-091;IP;144.85.172.32
+TCKT-091;ORG;SecureForge
+TCKT-091;URL;https://sso.sentinelcloud.net/signin
+TCKT-092;PERSON;Cristiano Barbosa
+TCKT-092;EMAIL;cristiano.barbosa20@cypherwave.ai
+TCKT-092;IP;58.217.28.90
+TCKT-092;ORG;CipherNest
+TCKT-092;URL;https://sso.netsecure.io/signin
+TCKT-093;PERSON;Ana Guimarães
+TCKT-093;EMAIL;ana.guimarães85@irongate.security
+TCKT-093;IP;8.47.70.180
+TCKT-093;ORG;Aegis Dynamics
+TCKT-093;URL;https://sso.zerotrace.dev/signin
+TCKT-094;PERSON;Igor Pereira
+TCKT-094;EMAIL;igor.pereira19@acme.com
+TCKT-094;IP;24.192.136.56
+TCKT-094;ORG;Orbital Defense
+TCKT-094;URL;https://edgematrix.io/download/94
+TCKT-095;PERSON;Carlos Santos
+TCKT-095;EMAIL;carlos.santos20@sentinel.works
+TCKT-095;IP;194.159.13.173
+TCKT-095;ORG;DataSafe
+TCKT-095;URL;https://id.blackwall.security/authorize
+TCKT-096;PERSON;Paula Neves
+TCKT-096;EMAIL;paula.neves66@netsecure.io
+TCKT-096;IP;89.111.29.73
+TCKT-096;ORG;CypherWave
+TCKT-096;URL;https://id.novatech.io/authorize
+TCKT-096;EMAIL;paula.neves39@coresec.net
+TCKT-097;PERSON;Sofia Neves
+TCKT-097;EMAIL;sofia.neves33@aegisdyn.com
+TCKT-097;IP;84.31.2.128
+TCKT-097;ORG;BlueOrbit
+TCKT-097;URL;https://api.alpha.solutions/v1/auth
+TCKT-098;PERSON;Enzo Pereira
+TCKT-098;EMAIL;enzo.pereira51@novatech.io
+TCKT-098;IP;112.5.118.236
+TCKT-098;ORG;BlueShield
+TCKT-098;URL;https://sso.sentinelcloud.net/signin
+TCKT-099;PERSON;Igor Souza
+TCKT-099;EMAIL;igor.souza42@sentinel.works
+TCKT-099;IP;206.243.159.118
+TCKT-099;ORG;ZeroTrace Labs
+TCKT-099;URL;https://status.sentinelcloud.net/login
+TCKT-100;PERSON;Melissa Moura
+TCKT-100;EMAIL;melissa.moura96@vectorguard.ai
+TCKT-100;IP;57.86.200.44
+TCKT-100;ORG;BlueShield
+TCKT-100;URL;https://status.brightlock.io/login
